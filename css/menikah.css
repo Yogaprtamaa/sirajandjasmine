@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: auto;
 }
 
 * {
@@ -17,6 +18,7 @@ html {
 
 .header-wrapper {
   padding-bottom: 30px;
+
 }
 
 .navbar-item {
@@ -29,7 +31,7 @@ html {
 }
 
 .navbar-item.is-active{
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #a81d1b;
 }
 
 .a.navbar-item{
@@ -39,7 +41,7 @@ html {
 
 .hero {
   background-image: url("https://i.pinimg.com/474x/3b/ca/09/3bca09e014c0b587ae6cbbd06af2f461.jpg");
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://i.pinimg.com/474x/3b/ca/09/3bca09e014c0b587ae6cbbd06af2f461.jpg") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://i.pinimg.com/474x/ef/58/9f/ef589f508ce3692d7c52e4242ae5238d.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -65,9 +67,9 @@ html {
 }
 
 .hero .tempatwaktu {
-  padding-top: 35px;
+  padding-top: 40px;
   font-size: 1.3rem;
-  
+  font-weight: 900;
 }
 
 .hero .hero-foot {
@@ -106,7 +108,7 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #996E6D;
+  color: #9d201e;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
@@ -157,7 +159,7 @@ html {
 }
 
 .main-content .section-dark.resume button {
-  border: 2px solid #996E6D;
+  border: 2px solid #dd201d;
   background: white;
   color: #996E6D;
   height: 50px;
@@ -173,6 +175,7 @@ html {
 .main-content .section-dark.my-work {
   padding: 80px 40px;
 }
+.bodytext
 
 .main-content .section-cashbac {
   background-color: rgb(238, 250, 253);
@@ -273,7 +276,7 @@ html {
 
 .main-content .section-color.pertanyaan {
   padding: 100px;
-  background-color: #996E6D;
+  background-color: #a42826;
   color: white;
 }
 
@@ -296,7 +299,31 @@ html {
   letter-spacing: 0px;
   padding-bottom: 20px;
 }
-
+.alquran{
+  font-size:large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #996E6D;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  padding-bottom: 0px
+}
+.arrum
+{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #1f1c1c;
+  font-size: 18px;
+  letter-spacing: 0px;
+  padding-bottom: 0px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
   color: #996E6D;
@@ -364,7 +391,7 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+  background: #996E6D;
   color: whitesmoke;    
 }
 
@@ -387,7 +414,10 @@ vertical-align: middle;
   max-height: 24px;
   vertical-align: middle;
 }
-
+.fartech
+{
+  .margin:10px
+}
 .footer a .nav-item {
   color: whitesmoke;
 }
@@ -575,41 +605,90 @@ body.preloader-site {
 .dusty-pink-darkest {color: #996E6D}
 
 .tile {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
-
+.gambar1{
+  width: 100%;
+  background-position: center;
+  height: auto;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: cover; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
+  background-repeat: no-repeat;
+}
+.gambar2
+{
+  width: 100%;
+  background-position: center;
+  height: auto;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: cover; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
+  background-repeat: no-repeat;
+}
+.gambar3{
+  width: 100%;
+  height: auto;
+  background-position: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: contain; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
+}
+.gambar4{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: contain; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
+}
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
+  /* background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg"); */
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: cover; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
 }
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
+  /* background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg"); */
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: cover; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
+
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
+  /* background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg"); */
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
   min-height: 24rem;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: cover; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
+  /* background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg"); */
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
   min-height: 24rem;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16; /* Menyesuaikan dengan format 16:9 vertikal */
+  object-fit: cover; /* Memastikan gambar tetap rapi dan tidak terdistorsi */
 }
 
 .foto5 {
